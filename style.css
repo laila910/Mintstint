@@ -2405,6 +2405,29 @@ select.mobile-device {
 .footer-distributed .footer-right {
     float: right;
 }
+.footer-distributed .footer-center .social{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-distributed .footer-center .social li{ display: inline-block; }
+.footer-distributed .footer-center .social li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 1px solid #28a9e2;
+    background: #fff;
+    font-size: 17px;
+    color: #28a9e2;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+.footer-distributed .footer-center:hover .social li a{
+    background: #1c142b;
+    color: #fff;
+}
 
 
 /* The search form */
